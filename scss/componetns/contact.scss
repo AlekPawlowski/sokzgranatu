@@ -1,0 +1,45 @@
+#contact {
+     background-color: lightgrey;
+     height: 800px;
+     width: 100%;
+}
+#map{
+     height: 400px;
+     width: 100%;
+}
+.contact_container{
+     width: 70%;
+     margin: 0 auto;
+     h1{
+          text-align: center;
+     }
+
+}
+.contact_info {
+     width: 80%;
+     margin: 0 auto;
+     h3{
+          text-align: center;
+     }
+     a{
+          text-decoration: none;
+          color: black;
+     }
+}
+.map_box{
+     width: 80%;
+     margin: 0 auto;
+     h3{
+          text-align: center;
+     }
+}
+.map {
+     width: 100%;
+     height: 400px;
+}
+#map_div{
+     width: 30%;
+     height: 100px;
+     background-color: blue;
+     z-index: 1;
+}

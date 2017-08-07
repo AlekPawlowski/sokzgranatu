@@ -1,0 +1,40 @@
+#partners{
+     background-color: lightgrey;
+     height: 1300px;
+     width: 100%
+}
+.partners_box{
+     width: 100%;
+     height: auto;
+     background-color: lightgrey;
+
+}
+.partners_container{
+     height: 1100px;
+     width: 60%;
+     background-color: white;
+     display: flex;
+     align-items: flex-start;
+     margin: 0 auto;
+}
+.partners_header{
+     height: 99px;
+     width: 100%;
+}
+.partners_image{
+     background-image: url("../Images/Partnerzy.png");
+     background-size: auto;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 1000px;
+     width: 100%;
+}
+
+.partners_text{
+     font-size: 20px;
+     height: 50px;
+     padding-top: 30px;
+     display: flex;
+     align-items: flex-start;
+     position: absolute;
+}

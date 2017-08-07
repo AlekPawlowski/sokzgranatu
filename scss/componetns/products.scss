@@ -1,0 +1,78 @@
+#products{
+     background-color: lightgrey;
+     height: 1100px;
+     width: 100%;
+}
+.products_box {
+     width:70%;
+     margin: 0 auto;
+     //grid = 12 column
+     //1=100%/12 = 8,33
+     h1{
+          text-align: center;
+          margin-bottom: 40px;
+     }
+
+     .rzad {
+          margin: 0;
+          height: 280px;
+
+
+
+          &:before, &:after {
+               content: " ";
+               clear: both;
+               display: block;
+          }
+
+          [class*="kol-"] {//wszystkie klasy , ktory maja poczatek col-
+               float: left;
+               min-height: 1px;
+               height: 100%;
+
+          }
+          @for $i from 1 through 4 {
+               .kol-#{$i} {
+                    width: 100%;
+
+                    @media screen and (min-width: 640px) {
+                    width: (100%/4) * $i;
+                    margin: 0;
+                    //col-1 ==> width: 8.33% *1 = 8.33%
+                    //col-2 ==> width: 8.33% *2 = 16.66%
+                    //col-3 ==> width: 8.33% *3 = 25%
+               }
+          }
+          }
+     }
+}
+.outer_ul{
+     padding-left: 20px;
+}
+.inner_ul {
+     padding-left: 30px;
+}
+#sok_z_granatu{
+     background-image: url("../images/sok_granat.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: auto;
+     width: 100%;
+     height: 100%;
+}
+#nektar_granat{
+     background-image: url("../images/nektar.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: auto;
+     width: 100%;
+     height: 100%;
+}
+#nektar_pigwa{
+     background-image: url("../images/nektar_pigwa.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: auto;
+     width: 100%;
+     height: 100%;
+}

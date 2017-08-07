@@ -1,0 +1,51 @@
+#info{
+     background-color: lightgrey;
+     height: 1120px;
+     width: 100%;
+}
+.info_box {
+     width:70%;
+     margin: 0 auto;
+     //grid = 12 column
+     //1=100%/12 = 8,33
+     h1{
+          text-align: center;
+     }
+     p{
+          text-align: center;
+          padding-top: 30px;
+     }
+
+     .row {
+          margin: 0;
+          height: 280px;
+
+
+
+          &:before, &:after {
+               content: " ";
+               clear: both;
+               display: block;
+          }
+
+          [class*="col-"] {//wszystkie klasy , ktory maja poczatek col-
+               float: left;
+               min-height: 1px;
+               height: 100%;
+
+          }
+          @for $i from 1 through 3 {
+               .col-#{$i} {
+                    width: 100%;
+
+                    @media screen and (min-width: 640px) {
+                    width: (100%/3) * $i;
+                    margin: 0;
+                    //col-1 ==> width: 8.33% *1 = 8.33%
+                    //col-2 ==> width: 8.33% *2 = 16.66%
+                    //col-3 ==> width: 8.33% *3 = 25%
+               }
+          }
+          }
+     }
+}

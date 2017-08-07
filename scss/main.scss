@@ -1,0 +1,31 @@
+@import "./componetns/about.scss";
+@import "./componetns/contact.scss";
+@import "./componetns/footer.scss";
+@import "./componetns/home.scss";
+@import "./componetns/partners.scss";
+@import "./componetns/products.scss";
+@import "./componetns/menu.scss";
+@import "./componetns/paralax.scss";
+@import "./componetns/setion4.scss";
+@import "./componetns/info.scss";
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: '';
+  display: flex;
+  align-items: center;
+  clear: both;
+}
+.border_img {
+     height: 50px;
+     width: 100%;
+     background-image: url("../Images/tittle_border.png");
+     background-size: auto;
+     background-position: center;
+     background-repeat: no-repeat;
+     border: none;
+}
