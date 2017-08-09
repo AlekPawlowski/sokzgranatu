@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from 'react-dom';
+import SliderMenu from 'react-slider-menu';
 
 
 export class Header extends React.Component {
@@ -8,12 +9,12 @@ export class Header extends React.Component {
           <div id="menu">
                <div className="menu_position clearfix">
                     <ul className="menucontainer">
-                         <a href="">GŁÓWNA</a>
-                         <a href="">O NAS</a>
-                         <a href="">PRODUKTY</a>
-                         <a href="">PARTNERZY</a>
-                         <a href="">CIEKAWOSTKI</a>
-                         <a href="">KONTAKT</a>
+                         <a href="#home">GŁÓWNA</a>
+                         <a href="#aboutus">O NAS</a>
+                         <a href="#products">PRODUKTY</a>
+                         <a href="#partners">PARTNERZY</a>
+                         <a href="#info">CIEKAWOSTKI</a>
+                         <a href="#contact">KONTAKT</a>
                     </ul>
                </div>
           </div>

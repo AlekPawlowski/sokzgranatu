@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-
+import SliderMenu from 'react-slider-menu';
 
 export class Section6 extends React.Component{
      render() {

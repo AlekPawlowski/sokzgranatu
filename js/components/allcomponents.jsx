@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from 'react-dom';
+import SliderMenu from 'react-slider-menu';
 import {Header} from './menu.jsx';
 import {Section1} from './home.jsx';
 import {Section2} from './aboutus.jsx';
@@ -11,9 +12,9 @@ import {Section7} from './info.jsx';
 import {Section8} from './contact.jsx';
 import {Footer} from './footer.jsx';
 
-
 export class Allcomponents extends React.Component {
      render() {
+          // $("a").mouseenter(function(){$(this).css("color","grey")});
           return (
                <div>
                     <Header />
