@@ -8,12 +8,12 @@
 @import "./componetns/paralax.scss";
 @import "./componetns/setion4.scss";
 @import "./componetns/info.scss";
+
 * {
      margin: 0;
      padding: 0;
      box-sizing: border-box;
 }
-
 .clearfix::after {
   content: '';
   display: flex;
