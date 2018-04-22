@@ -5,7 +5,7 @@ import {Header} from './menu.jsx';
 import {Section1} from './home.jsx';
 import {Section2} from './aboutus.jsx';
 import {Section3} from './produtcts.jsx';
-import {Section4} from './setion4.jsx';
+import {Section4} from './section4.jsx';
 import {Section5} from './partners.jsx';
 import {Section6} from './paralax.jsx';
 import {Section7} from './info.jsx';
