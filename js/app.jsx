@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from 'react-dom';
 import '../scss/main.scss';
-import {Allcomponents} from './components/allcomponents.jsx';
+import {Allcomponents} from './partials/allcomponents.jsx';
 import SliderMenu from 'react-slider-menu';
 
 
